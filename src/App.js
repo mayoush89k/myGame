@@ -20,7 +20,7 @@ export default function App() {
          <Router>
             <Title title="Smart House" />
             <Switch>
-               <Route exact path="/" component={() => (
+               <Route exact path="/home" component={() => (
                   <Provider value={rooms}>
                      <HomePage index={getRoomIndex} />
                   </Provider>
